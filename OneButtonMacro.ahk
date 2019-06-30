@@ -3,8 +3,10 @@ SetWorkingDir %A_ScriptDir%
 configFile = OneButtonMacro.config
 if FileExist(configFile) {
 	file := FileOpen(configFile, "r")
-	userHotkey := file.ReadLine()
-	userMacro := file.ReadLine()
+	fileContents := file.Read()
+	fileContentsSplitted := StrSplit(fileContents, "`n")
+	userHotkey := fileContentsSplitted[1]
+	userMacro := fileContentsSplitted[2]
 	file.Close()
 } else {
 	userHotkey := 2
@@ -59,7 +61,6 @@ userHotkey := hot1
 userMacro := edit1
 file := FileOpen(configFile, "w")
 file.WriteLine(userHotkey)
-file.WriteLine(userMacro)
+file.Write(userMacro)
 file.Close()
 ExitApp
-;product by Rogal3
