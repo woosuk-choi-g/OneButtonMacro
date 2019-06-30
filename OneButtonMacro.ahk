@@ -62,3 +62,4 @@ file.WriteLine(userHotkey)
 file.WriteLine(userMacro)
 file.Close()
 ExitApp
+;product by Rogal3
