@@ -3,9 +3,7 @@
 
 ### 사용법
 * https://github.com/Rogal3/OneButtonMacro/raw/master/OneButtonMacro.exe
-* 다운받고 걍 쓰면 됨.
-
-
+* 다운받고 우클릭해서 관리자 권한 실행.
 
 ### 악성코드 싫어하는 사람을 위한 스크립트 직접 실행방법
 * 오토 핫키를 설치한다.
