@@ -18,8 +18,9 @@ Gui, Add, Text,, 입력 매크로 :
 Gui, Add, Edit, vedit1 w135, %userMacro%
 Gui, Add, Button, gbtn, 적용
 Gui, Submit, Nohide
+Gui, -MaximizeBox -MinimizeBox
+Gui, show, W175
 enable := false
-Gui, show
 Return
 
 btn:
