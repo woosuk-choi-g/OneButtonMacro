@@ -5,6 +5,8 @@
 * https://github.com/Rogal3/OneButtonMacro/raw/master/OneButtonMacro.exe
 * 다운받고 걍 쓰면 됨.
 
+
+
 ### 악성코드 싫어하는 사람을 위한 스크립트 직접 실행방법
 * 오토 핫키를 설치한다.
 * 니 직박구리 폴더에서 우클릭 - 새로만들기 - autohotkey script 를 클릭한다.
